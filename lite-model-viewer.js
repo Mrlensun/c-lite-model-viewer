@@ -49,7 +49,7 @@ class LiteModelViewer extends HTMLElement {
       script.id = "model-viewer-script";
       script.type = "module";
       script.src =
-        "https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js";
+        "https://ajax.proxy.ustclug.org/ajax/libs/model-viewer/3.3.0/model-viewer.min.js";
       document.body.append(script);
     }
 
